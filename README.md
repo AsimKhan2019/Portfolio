@@ -25,25 +25,12 @@ Visual Studio Code
 
 
 ### Setup
-Create a HTML_Flex_Job Repo in GitHub
 Set the repo clone in Visual Studio Code
 Create a new branch and name it features
 Create a file .gitignore
 Create a folder .github/workflows
 Add linters.yml into the folder
 Copy the contents from the html and css linter style guidelines
-Add the index2.html file 
-Add style2.css file 
-Add img folder
-Add gulpfile.js to the project
-
-### Install
-Add contetnts to the index2.html file 
-Add elements and styles to the style2.css file 
-Add the style for both the header and hero section
-Add the meta tags for both charset and viewport in index.html file
-Run the npm command to install the linters jobs into the project
-Run the gulp --global install command into the project directory
 
 ### Usage
 Add all changes into the features branch
