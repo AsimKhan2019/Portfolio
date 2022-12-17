@@ -12,7 +12,7 @@
 - Visual Studio Code and GitHub
 
 ## Live Demo (if available)
-[https://asimkhan2019.github.io/HTML_Mobile_Exercise/](https://asimkhan2019.github.io/HTML_Mobile_Exercise/)
+[https://asim-khan.netlify.app/](https://asim-khan.netlify.app/)
 
 ## Getting Started
 
