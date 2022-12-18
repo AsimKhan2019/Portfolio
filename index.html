@@ -1,606 +1,242 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.0/css/all.css">
-  </head>
-  <body>
-     <!-- Main Container -->
-    <div class="container-fluid">
-      
-      <!-- Header Container -->
-      <div> 
-        <nav class="navbar fixed-top navbar-expand-lg bg-white">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="img/logo.png" alt="Avatar Logo"> 
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Asim Khan - Designer, Developer, Dreamer</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Asim Mehmood Khan</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/asim-intro.png" alt="..." /></span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#About">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Services">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Contact">Contact</a>
-                </li>
-              </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                </ul>
             </div>
-          </div>
         </nav>
-      </div> 
-      <!-- End of Header Container -->
-      
-      <!-- Carousel Container -->
-      <div> 
-        <!-- Carousel -->
-        <div id="demo" class="carousel slide" data-bs-ride="carousel">
-          <!-- The slideshow/carousel -->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/innovation.png" alt="We Code" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-              <img src="img/elegance.png" alt="We Analyze" class="d-block w-100"> 
-            </div>
-            <div class="carousel-item">
-              <img src="img/coffee.png" alt="We Live" class="d-block w-100">  
-            </div>
-          </div>
-        </div> 
-        <!-- End of Carousel -->
-      </div> 
-      <!-- End of Carousel Container -->
-      
-      <!-- Intro Container -->
-      <div id="About" class="container text-center mt-5">
-        <h2 class="pb-4">About Me</h2>
-        <div class="row">
-          <div class="col">
-            <div class="card p-5">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="img/asim-intro.png" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h2 class="card-title">
-                      Asim Khan | Full Stack Web Developer
-                    </h2>
-                    <p class="card-text">
-                      I’m a software developer! I can help you build a product , feature or website. Look 
-                      through some of my work and experience! If you like what you see and have a project 
-                      you need coded, don’t hestiate to contact me. We can discuss about your 
-                      goals and solution.
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Asim M.
+                        <span class="text-primary">Khan</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        DHA · Lahore, Pakistan, PO 54792 · (0092) 343-1451554 ·
+                        <a href="mailto:asim.khan@vtechbiz.net">asim.khan@vtechbiz.net</a>
+                    </div>
+                    <p class="lead mb-5">I am a Full Stack Web Developer and a DevOps Engineer with a passion to bring your dreams to reality. 
+                        I can develop web, windows, and mobile applications aligining our solutions with your business requirements. 
+                        Let's discuss more about your visions and dreams over a cup of coffee.
                     </p>
-                    <p class="card-text">
-                      <small class="text-muted">
-                        <a href="https://www.linkedin.com/in/asim-khan/" target="_blank" class="btn btn-primary" role="button">
-                          <i class="fa-brands fa fa-linkedin"></i>
-                        </a>
-                        <a href="https://twitter.com/vtechbiz" target="_blank" class="btn btn-info" role="button">
-                          <i class="fa-brands fa-twitter text-white"></i>
-                        </a>
-                        <a href="https://www.facebook.com/VtechbizSolutions" target="_blank" class="btn btn-primary" role="button">
-                          <i class="fa-brands fa-facebook"></i>
-                        </a>
-                        <a href="https://github.com/AsimKhan2019" target="_blank" class="btn btn-dark" role="button">
-                          <i class="fa-brands fa-github"></i>
-                        </a>
-                      </small>
-                    </p>
-                  </div>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/asim-khan/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/AsimKhan2019"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://twitter.com/vtechbiz"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="https://www.facebook.com/VtechbizSolutions"><i class="fab fa-facebook-f"></i></a>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="col order-1">
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Front End Development
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <img src="img/html5.png" class="img-thumbnail" alt="html5" width="100" height="100">
-                    <img src="img/css3.png" class="img-thumbnail" alt="html5" width="100" height="100">
-                    <img src="img/js.png" class="img-thumbnail" alt="html5" width="100" height="100">
-                    <img src="img/react.png" class="img-thumbnail" alt="html5" width="100" height="100">
-                  </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Project Manager</h3>
+                            <div class="subheading mb-3">vTechBiz Solutions</div>
+                            <p>Collaborate with team developers and create a strategy to deliver the solutions to the clients
+                                based on their specifications and requirements. Communicate with clients and understand their 
+                                business requirements ensuring to deliver the solution aligining with those business objectives. 
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2013 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Software Engineer</h3>
+                            <div class="subheading mb-3">Absolute Solutions</div>
+                            <p>Using .NET Technologies to deliver and deploy enterprise applications at the client site to 
+                                deliver the state of the art solutions to address their business objectives and reducing 
+                                operational limitations and enhance performance.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2011 - December 2012</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Computer Programmer</h3>
+                            <div class="subheading mb-3">Punjab Highway Patrol</div>
+                            <p>Handling call center operaional capacity to address concerned citizens facing difficulties on highways
+                                and motorways and providing technical and personnel assistance to them. Maintaining security firms and 
+                                cataloging their security staff and employees for provincial government records.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2010 - September 2011</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Punjab Education Foundation</h3>
+                            <div class="subheading mb-3">Software Programmer</div>
+                            <p>Developed Employee Management System to track and manage employees record and their respective 
+                                salaries in order to provide accurate and effective employee progress report and deliver their 
+                                earned salaries on time.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2010 - August 2010</span></div>
+                    </div>
                 </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Back End Development
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <img src="img/rails.png" class="img-thumbnail" alt="html5" width="100" height="100">
-                    <img src="img/postgressql.png" class="img-thumbnail" alt="html5" width="100" height="100">
-                    <img src="img/api.png" class="img-thumbnail" alt="html5" width="100" height="100">
-                  </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of Portsmouth</h3>
+                            <div class="subheading mb-3">BSc. (Hons) In Computing</div>
+                            <div>Computing - Software Analysis and Development Track</div>
+                            <p>GPA: 3</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2003 - December 2007</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Microverse</h3>
+                            <div class="subheading mb-3">Remote Full Stack Web Development</div>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2022 - December 2022</span></div>
+                    </div>
                 </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Test Framework
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <img src="img/rspec.png" class="img-thumbnail" alt="html5" width="100" height="100">
-                    <img src="img/capybara.png" class="img-thumbnail" alt="html5" width="100" height="100">
-                  </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-microsoft"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-wix"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-ubuntu"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobile-First, Responsive Design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
                 </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFour">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    .NET Development
-                  </button>
-                </h2>
-                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <img src="img/c-sharp.png" class="img-thumbnail" alt="html5" width="100" height="100">
-                    <img src="img/asp-net-core.png" class="img-thumbnail" alt="html5" width="100" height="100">
-                    <img src="img/net-core.png" class="img-thumbnail" alt="html5" width="100" height="100">
-                  </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
                 </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFive">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    Deployment
-                  </button>
-                </h2>
-                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <img src="img/azure.png" class="img-thumbnail" alt="html5" width="100" height="100">
-                  </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <ul class="fa-ul mb-0">
+                        <!-- <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Google Analytics Certified Developer
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Mobile Web Specialist - Google Certification
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2
+                            <sup>nd</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - James Buchanan High School - Hackathon 2006
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            3
+                            <sup>rd</sup>
+                            Place - James Buchanan High School - Hackathon 2005
+                        </li> -->
+                    </ul>
                 </div>
-              </div>
-            </div>
-          </div>
+            </section>
         </div>
-      </div> 
-      <!-- End of Intro Container -->
-
-      <!-- Services Container -->
-      <div id="Services" class="container text-center mt-5">
-        <h2 class="pb-4">Services</h2>
-        <div class="card-group mx-auto" style="width: 58rem;gap: 2rem;">
-          <div class="card border border-1">
-            <img src="img/services.png" class="card-img-top" alt="services">
-            <div class="card-body">
-              <h5 class="card-title">Services</h5>
-              <p class="card-text">Our services include content writing, project management and 
-                business requirements analysis and gathering to deliver the business direction for your 
-                company. We collaborate, communicate, and curate a perfect solution for your business 
-                needs.
-              </p>
-              <p class="card-text"><small class="text-muted"></small></p>
-            </div>
-          </div>
-          <div class="card border border-1">
-            <img src="img/development.png" class="card-img-top" alt="development">
-            <div class="card-body">
-              <h5 class="card-title">Development</h5>
-              <p class="card-text">We develop applications for the web, desktop, mobile. Our specialization
-                is mostly in blogs, portfolios, e-commerce, and business applications.
-              </p>
-              <p class="card-text"><small class="text-muted"></small></p>
-            </div>
-          </div>
-          <div class="card border border-1">
-            <img src="img/testing.png" class="card-img-top" alt="testing">
-            <div class="card-body">
-              <h5 class="card-title">Testing</h5>
-              <p class="card-text">We perform unit and integration testing to gurantee that solutions
-                deliver the right punch for your business requirements and target the right audience 
-                for increased profits and sales.
-              </p>
-              <p class="card-text"><small class="text-muted"></small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End of Services Container -->
-
-      <!-- Portfolio Container -->
-      <div id="Portfolio" class="container text-center mt-5">
-        <h2 class="pb-2">Portfolio</h2>
-        <br>
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="tab" href="#Behance">Behance</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#Awesome">Awesome Books</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#ToDo">To Do List</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#MathMagic">Math Magicians</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#SpaceHub">Space Traveler's Hub</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#USPopulation">US Population</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#SpaceLaunch">Space Launch</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#BookStore">Book Store CMS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#DreamRent">Dream Rent Booking</a>
-          </li>
-        </ul>
-      
-        <!-- Tab panes -->
-        <div class="tab-content">
-
-          <!-- Behance HTML Tab -->
-          <div id="Behance" class="container tab-pane active"><br>
-            <div class="card mb-3">
-              <img src="img/behance.png" class="card-img-top w-100 img-fluid img-thumbnail" alt="Behance Project">
-              <div class="card-body">
-                <p class="card-text">
-                  <ul class="list-group list-group-horizontal justify-content-center align-items-center">
-                    <li class="border border-0 list-group-item fs-5 fw-semibold">Canopy</li>
-                    <li class="border border-0 list-group-item">FrontEnd</li>
-                    <li class="border border-0 list-group-item">2022</li>
-                  </ul>
-                </p>
-                <h5 class="card-title">HTML Behance Capstone Project</h5>
-                <p class="card-text">HTML project built using HTML, CSS, Bootstrap</p>
-                <p class="card-text">
-                  <small class="text-muted">
-                    <span class="badge bg-info">HTML</span>
-                    <span class="badge bg-info">Bootstrap</span>
-                    <span class="badge bg-info">CSS</span>
-                  </small>
-                </p>
-                <p class="card-text">
-                  <a href="https://asimkhan2019.github.io/CapStone_Project_Behance/" target="_blank" class="btn btn-outline-primary" role="button">See Live</a>
-                  <a href="https://github.com/AsimKhan2019/CapStone_Project_Behance" target="_blank" class="btn btn-outline-primary" role="button">See Code</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- End of Behance HTML Tab -->
-
-          <!-- Awesome Book Tab -->
-          <div id="Awesome" class="container tab-pane fade"><br>
-            <div class="card mb-3">
-              <img src="img/awesome.png" class="card-img-top w-100 img-fluid img-thumbnail" alt="Awesome Books" style="height:25rem;">
-              <div class="card-body">
-                <p class="card-text">
-                  <ul class="list-group list-group-horizontal justify-content-center align-items-center">
-                    <li class="border border-0 list-group-item fs-5 fw-semibold">Canopy</li>
-                    <li class="border border-0 list-group-item">FrontEnd</li>
-                    <li class="border border-0 list-group-item">2022</li>
-                  </ul>
-                </p>
-                <h5 class="card-title">Awesome Books</h5>
-                <p class="card-text">Awesome Books ES6 developed using ECMA Script 6</p>
-                <p class="card-text">
-                  <small class="text-muted">
-                    <span class="badge bg-info">HTML</span>
-                    <span class="badge bg-info">Javascript</span>
-                    <span class="badge bg-info">CSS</span>
-                    <span class="badge bg-info">ES6</span>
-                  </small>
-                </p>
-                <p class="card-text">
-                  <a href="https://asimkhan2019.github.io/AwesomeBooks_ES6_JavaScript/" target="_blank" class="btn btn-outline-primary" role="button">See Live</a>
-                  <a href="https://github.com/AsimKhan2019/AwesomeBooks_ES6_JavaScript" target="_blank" class="btn btn-outline-primary" role="button">See Code</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- End of Awesome Book Tab -->
-
-          <!-- To Do List Tab -->
-          <div id="ToDo" class="container tab-pane fade"><br>
-            <div class="card mb-3">
-              <img src="img/webpack.png" class="card-img-top w-100 img-fluid img-thumbnail" alt="To Do List">
-              <div class="card-body">
-                <p class="card-text">
-                  <ul class="list-group list-group-horizontal justify-content-center align-items-center">
-                    <li class="border border-0 list-group-item fs-5 fw-semibold">Canopy</li>
-                    <li class="border border-0 list-group-item">FrontEnd</li>
-                    <li class="border border-0 list-group-item">2022</li>
-                  </ul>
-                </p>
-                <h5 class="card-title">To Do List</h5>
-                <p class="card-text">Built using Java script and Web pack for adding and removing tasks from the list.</p>
-                <p class="card-text">
-                  <small class="text-muted">
-                    <span class="badge bg-info">HTML</span>
-                    <span class="badge bg-info">Javascript</span>
-                    <span class="badge bg-info">CSS</span>
-                    <span class="badge bg-info">Webpack</span>
-                  </small>
-                </p>
-                <p class="card-text">
-                  <a href="https://asimkhan2019.github.io/WebPack_To-Do-List_Exercise/" target="_blank" class="btn btn-outline-primary" role="button">See Live</a>
-                  <a href="https://github.com/AsimKhan2019/WebPack_To-Do-List_Exercise" target="_blank" class="btn btn-outline-primary" role="button">See Code</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- End of To Do List Tab -->
-
-          <!-- Math Magic Tab -->
-          <div id="MathMagic" class="container tab-pane fade"><br>
-            <div class="card mb-3">
-              <img src="img/maths.png" class="card-img-top w-100 img-fluid img-thumbnail" alt="Math Magic">
-              <div class="card-body">
-                <p class="card-text">
-                  <ul class="list-group list-group-horizontal justify-content-center align-items-center">
-                    <li class="border border-0 list-group-item fs-5 fw-semibold">Canopy</li>
-                    <li class="border border-0 list-group-item">FrontEnd</li>
-                    <li class="border border-0 list-group-item">2022</li>
-                  </ul>
-                </p>
-                <h5 class="card-title">Math Magicians</h5>
-                <p class="card-text">Using a Single Page App using React for Math Calculator</p>
-                <p class="card-text">
-                  <small class="text-muted">
-                    <span class="badge bg-info">HTML</span>
-                    <span class="badge bg-info">Javascript</span>
-                    <span class="badge bg-info">CSS</span>
-                    <span class="badge bg-info">React</span>
-                  </small>
-                </p>
-                <p class="card-text">
-                  <a href="https://mathsmagics.netlify.app/" target="_blank" class="btn btn-outline-primary" role="button">See Live</a>
-                  <a href="https://github.com/AsimKhan2019/math_magicians_react" target="_blank" class="btn btn-outline-primary" role="button">See Code</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- End of Math Magic -->
-
-          <!-- Space Hub Tab -->
-          <div id="SpaceHub" class="container tab-pane fade"><br>
-          <div class="card mb-3">
-            <img src="img/space.png" class="card-img-top w-100 img-fluid img-thumbnail" alt="Space Hub" style="height:28rem;">
-            <div class="card-body">
-              <p class="card-text">
-                <ul class="list-group list-group-horizontal justify-content-center align-items-center">
-                  <li class="border border-0 list-group-item fs-5 fw-semibold">Canopy</li>
-                  <li class="border border-0 list-group-item">FrontEnd</li>
-                  <li class="border border-0 list-group-item">2023</li>
-                </ul>
-              </p>
-              <h5 class="card-title">Space Traveler's Hub</h5>
-              <p class="card-text">React and Redux project to fetch and reserve space missions via API</p>
-              <p class="card-text">
-                <small class="text-muted">
-                  <span class="badge bg-info">HTML</span>
-                  <span class="badge bg-info">Javascript</span>
-                  <span class="badge bg-info">Redux</span>
-                  <span class="badge bg-info">React</span>
-                </small>
-              </p>
-              <p class="card-text">
-                <a href="https://spacetouristhub.netlify.app/" target="_blank" class="btn btn-outline-primary" role="button">See Live</a>
-                <a href="https://github.com/AsimKhan2019/space-react-project" target="_blank" class="btn btn-outline-primary" role="button">See Code</a>
-              </p>
-            </div>
-          </div>
-        </div>
-       <!-- End of Space Hub Tab -->
-
-        <!-- US Population Tab -->
-        <div id="USPopulation" class="container tab-pane fade"><br>
-          <div class="card mb-3">
-            <img src="img/uspopulation.png" class="card-img-top w-100 img-fluid img-thumbnail" alt="US Population" style="height:28rem;">
-            <div class="card-body">
-              <p class="card-text">
-                <ul class="list-group list-group-horizontal justify-content-center align-items-center">
-                  <li class="border border-0 list-group-item fs-5 fw-semibold">Canopy</li>
-                  <li class="border border-0 list-group-item">FrontEnd</li>
-                  <li class="border border-0 list-group-item">2023</li>
-                </ul>
-              </p>
-              <h5 class="card-title">US Population</h5>
-              <p class="card-text">Final React Capstone Project on US Population</p>
-              <p class="card-text">
-                <small class="text-muted">
-                  <span class="badge bg-info">HTML</span>
-                  <span class="badge bg-info">Javascript</span>
-                  <span class="badge bg-info">CSS</span>
-                  <span class="badge bg-info">React</span>
-                </small>
-              </p>
-              <p class="card-text">
-                <a href="https://us-population-react.netlify.app/" target="_blank" class="btn btn-outline-primary" role="button">See Live</a>
-                <a href="https://github.com/AsimKhan2019/capston_react" target="_blank" class="btn btn-outline-primary" role="button">See Code</a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- End of US Population Tab -->
-
-        <!-- Space Launch Tab -->
-        <div id="SpaceLaunch" class="container tab-pane fade"><br>
-          <div class="card mb-3">
-            <img src="img/launch.png" class="card-img-top w-100 img-fluid img-thumbnail" alt="Sapce Launch">
-            <div class="card-body">
-              <p class="card-text">
-                <ul class="list-group list-group-horizontal justify-content-center align-items-center">
-                  <li class="border border-0 list-group-item fs-5 fw-semibold">Canopy</li>
-                  <li class="border border-0 list-group-item">FrontEnd</li>
-                  <li class="border border-0 list-group-item">2023</li>
-                </ul>
-              </p>
-              <h5 class="card-title">Space Launch</h5>
-              <p class="card-text">Javascript Capstone Project to retrieve API data for Space Missions</p>
-              <p class="card-text">
-                <small class="text-muted">
-                  <span class="badge bg-info">HTML</span>
-                  <span class="badge bg-info">Javascript</span>
-                  <span class="badge bg-info">CSS</span>
-                </small>
-              </p>
-              <p class="card-text">
-                <a href="https://asimkhan2019.github.io/Kanban_Board/" target="_blank" class="btn btn-outline-primary" role="button">See Live</a>
-                <a href="https://github.com/AsimKhan2019/Kanban_Board" target="_blank" class="btn btn-outline-primary" role="button">See Code</a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- End of Space Launch Tab -->
-
-        <!-- React Book Store CMS -->
-        <div id="BookStore" class="container tab-pane fade"><br>
-          <div class="card mb-3">
-            <img src="img/cms.png" class="card-img-top w-100 img-fluid img-thumbnail" alt="Book Store CMS">
-            <div class="card-body">
-              <p class="card-text">
-                <ul class="list-group list-group-horizontal justify-content-center align-items-center">
-                  <li class="border border-0 list-group-item fs-5 fw-semibold">Canopy</li>
-                  <li class="border border-0 list-group-item">FrontEnd</li>
-                  <li class="border border-0 list-group-item">2023</li>
-                </ul>
-              </p>
-              <h5 class="card-title">React Book Store CMS</h5>
-              <p class="card-text">Final Capstone React Book Store CMS Project</p>
-              <p class="card-text">
-                <small class="text-muted">
-                  <span class="badge bg-info">HTML</span>
-                  <span class="badge bg-info">Javascript</span>
-                  <span class="badge bg-info">CSS</span>
-                  <span class="badge bg-info">React</span>
-                </small>
-              </p>
-              <p class="card-text">
-                <a href="https://react-bookstore-cms.netlify.app/" target="_blank" class="btn btn-outline-primary" role="button">See Live</a>
-                <a href="https://github.com/AsimKhan2019/reactbookstore" target="_blank" class="btn btn-outline-primary" role="button">See Code</a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- End of React Book Store CMS -->
-
-        <!-- Dream Rent Tab -->
-        <div id="DreamRent" class="container tab-pane fade"><br>
-          <div class="card mb-3">
-            <img src="img/rent.png" class="card-img-top w-100 img-fluid img-thumbnail" alt="Dream Rent">
-            <div class="card-body">
-              <p class="card-text">
-                <ul class="list-group list-group-horizontal justify-content-center align-items-center">
-                  <li class="border border-0 list-group-item fs-5 fw-semibold">Canopy</li>
-                  <li class="border border-0 list-group-item">FrontEnd</li>
-                  <li class="border border-0 list-group-item">BackEnd</li>
-                  <li class="border border-0 list-group-item">2023</li>
-                </ul>
-              </p>
-              <h5 class="card-title">Dream Rent Appointment Booking</h5>
-              <p class="card-text">Final Capstone Booking Appointment App using React and Ruby on Rails</p>
-              <p class="card-text">
-                <small class="text-muted">
-                  <span class="badge bg-info">HTML</span>
-                  <span class="badge bg-info">Javascript</span>
-                  <span class="badge bg-info">Bootstrap</span>
-                  <span class="badge bg-info">React</span>
-                  <span class="badge bg-info">Ruby On Rails</span>
-                </small>
-              </p>
-              <p class="card-text">
-                <a href="https://dream-rent-booking.netlify.app/login" target="_blank" class="btn btn-outline-primary" role="button">See Live</a>
-                <a href="https://github.com/Shubh-Dev/dream-rent" target="_blank" class="btn btn-outline-primary" role="button">See Code</a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- End of Dream Rent Tab -->
-        </div>
-      </div>
-      <!-- End of Portfolio Container -->
-
-      <!-- Contact Form -->
-      <div id="Contact" class="container text-center align-items-center mt-5">
-        <div class="row justify-content-center">
-          <div class="col-10">
-            <h2 class="p-4">Contact Us</h2>
-          </div>
-          <div class="col-4">
-            <div class="card mb-3">
-              <img src="https://is-enterprises.com/wp-content/uploads/2018/05/contact-1.jpg" class="card-img-top" alt="Contact Us">
-              <div class="card-body">
-                <h5 class="card-title">Reach Out To Me</h5>
-                <p class="card-text">Feel free to reach out to me and I will be more than happy to hear 
-                  your views and ideas. Let's meet up for a cup of coffee and explore the possibility 
-                  of a great future endeauvors and prospects.
-                  <br/>
-                  <strong>Email</strong>: asim.khan@vtechbiz.net
-                  <br/>
-                  <strong></strong>
-                </p>
-                <p class="card-text"><small class="text-muted"></small></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6">
-            <form id="contact_form" name="contact_form" method="post" action="https://formspree.io/f/xyyooogl">
-                <div class="mb-3 row">
-                  <div class="col">
-                    <label>First Name</label>
-                    <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name">
-                  </div>
-                  <div class="col">
-                    <label>Last Name</label>
-                    <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name">
-                  </div>
-                </div>
-                <div class="mb-3 row">
-              <div class="col">
-                <label for="email_addr">Email address</label>
-                <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
-                placeholder="name@example.com">
-              </div>
-              <div class="col">
-                <label for="phone_input">Phone</label>
-                <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
-                placeholder="Phone">
-              </div>
-            </div>
-            <div class="mb-3">
-              <label for="message">Message</label>
-              <textarea class="form-control" id="message" name="message" rows="5"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary px-4 btn-lg">Submit</button>
-          </form>
-          </div>
-        </div>
-      </div>
-      <!-- End of Contact Form -->
-    </div> 
-    <!-- End of Main Container -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
