@@ -68,6 +68,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
